@@ -19,8 +19,8 @@ A shell script that creates an environment suitable for an OSX Jenkins Continuou
 
 ## Requirements
 
-* Xcode 4.6 dmg
-* Xcode CLI tools dmg
+* Xcode 4.6 dmg (named as xcode.dmg)
+* Xcode CLI tools dmg (named as xcode_cli.dmg)
 * Eclipse 4.2.1 tarball, 64-bit version
 * Java JDK 7 Update 15
 * An Active Internet Connection
