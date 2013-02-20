@@ -6,27 +6,30 @@ A shell script that creates an environment suitable for an OSX Jenkins Continuou
 
 ## Features
 
+* installs Java JDK 7
 * installs xcode and xcode CLI tools
 * installs homebrew
 * installs cocoapods
 * installs git
-* installs "oh my zsh" script
+* installs "oh my zsh"
 * installs eclipse
 * installs node
 * installs Jenkins with GithubOauth, Xcode, and build timeout plugins
+* updates rubyGems to the latest possible version
 
 ## Requirements
 
 * Xcode 4.6 dmg
 * Xcode CLI tools dmg
-* Eclipse tarball
-* A java runtime environment installed and running
+* Eclipse 4.2.1 tarball, 64-bit version
+* Java JDK 7 Update 15
+* An Active Internet Connection
 
 ## Directions
 
-1. ensure the needed files (xcode + eclipse) are in your downloads folder
+1. Ensure Xcode, Xcode CLI, Eclipse Tarball, and Java JDK are in the same folder as Jenkins.sh
 2. run the script with your admin password as a parameter. Eg: sh Jenkins.sh <password>
-3. Follow the instructions as they pop up. Everything is mostly automated, but the occasional command needs extra validation in the form of your password.
+3. Sit back, grab yourself a coffee, and wait for everything to install
 
 ## License
 
