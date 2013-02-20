@@ -27,9 +27,10 @@ A shell script that creates an environment suitable for an OSX Jenkins Continuou
 
 ## Directions
 
-1. Ensure Xcode, Xcode CLI, Eclipse Tarball, and Java JDK are in the same folder as Jenkins.sh
-2. run the script with your admin password as a parameter. Eg: sh Jenkins.sh <password>
-3. Sit back, grab yourself a coffee, and wait for everything to install
+1. clone Jenkins_Bootstrap into a new repo.
+2. Ensure Xcode, Xcode CLI, Eclipse Tarball, and Java JDK are in the same folder as Jenkins.sh
+3. run the script with your admin password as a parameter. Eg: sh Jenkins.sh <password>
+4. Sit back, grab yourself a coffee, and wait for everything to install
 
 ## License
 
