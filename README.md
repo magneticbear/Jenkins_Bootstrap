@@ -1,12 +1,14 @@
-# Jenkins BootStrap
+# Jenkins Bootstrap
 
 ## About
 
-A shell script that creates an environment suitable for an OSX Jenkins Continuous Integration Server
+A shell script that creates an environment suitable for an OS X Jenkins Continuous Integration Server
 
 ## Features
 
 * installs Java JDK 7
+* installs Java JRE 6
+* installs Java JRE 7
 * installs xcode and xcode CLI tools
 * installs homebrew
 * installs cocoapods
@@ -14,8 +16,8 @@ A shell script that creates an environment suitable for an OSX Jenkins Continuou
 * installs "oh my zsh"
 * installs eclipse
 * installs node
-* installs Jenkins with GithubOauth, Xcode, and build timeout plugins
-* updates rubyGems to the latest possible version
+* installs Jenkins with GithubOAuth, Xcode, and build timeout plugins
+* updates rubygems to the latest possible version
 
 ## Requirements
 
@@ -28,11 +30,11 @@ A shell script that creates an environment suitable for an OSX Jenkins Continuou
 
 ## Directions
 
-1. clone Jenkins_Bootstrap into a new repo.
+1. clone Jenkins_Bootstrap into a new repo
 2. Ensure Xcode, Xcode CLI, Eclipse Tarball, and Java JDK are in the same folder as Jenkins.sh
 3. run the script with your admin password as a parameter. Eg: `sh Jenkins.sh <password>`
 4. Sit back, grab yourself a coffee, and wait for everything to install
 
 ## License
 
-Jenkins BootStrap for OSX is releaseder under the [MIT License](http://opensource.org/licenses/MIT).
+Jenkins Bootstrap for OSX is released under the [MIT License](http://opensource.org/licenses/MIT).
