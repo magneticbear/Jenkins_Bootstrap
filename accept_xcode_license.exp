@@ -8,11 +8,10 @@ expect {
     {
         #stty -echo
         #expect_user -re "(.*)\n"
-       # stty echo
+        # stty echo
         #set pass $expect_out(1,string)
- send "$password\r"
+        send "$password\r"
         exp_continue
-	
     }
     "incorrect password attempts"
     {
@@ -22,18 +21,15 @@ expect {
     {
         send "\r"
         exp_continue
-	
     }
     "Press 'space' for more"
     {
         send " "
         exp_continue
-	
     }
     "By typing 'agree'"
     {
         send "agree\r"
         exp_continue
-	
     }
 }
