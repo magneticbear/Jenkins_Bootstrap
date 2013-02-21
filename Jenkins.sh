@@ -28,7 +28,6 @@ echo "Installing git"
 brew install git
 
 echo "Installing Eclipse 4.2.1"
-
 tar -zxvf eclipse-SDK-4.2.1-macosx-cocoa-x86_64.tar
 mv Eclipse /Applications/Eclipse
 
