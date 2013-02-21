@@ -1,18 +1,22 @@
 #!/usr/bin/env expect -f
-set timout -20
+set timeout 3600
 set password [lindex $argv 0]
 set rubyLink [lindex $argv 1]
 spawn ruby $rubyLink
 
 expect {
-  "Password"
+	"Press ENTER to continue or any other key to abort"
 	{
-	send "$password\r"
-        exp_continue
-	
-    }
-    "incorrect password attempts"
-    {
-        exit 1
-    }
+		send "\r"
+		exp_continue
+	}
+	"Password"
+	{
+		send "$password\r"
+		exp_continue
+	}
+	"incorrect password attempts"
+	{
+		exit 1
+	}
 }
