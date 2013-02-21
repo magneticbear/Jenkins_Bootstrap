@@ -66,6 +66,8 @@ curl -L -o jenkins.pkg http://mirrors.jenkins-ci.org/osx/latest
 echo "Installing Jenkins"
 echo $1 | sudo -S  installer -pkg jenkins.pkg -target /
 
+sleep 20 # wait for Jenkins to boot up
+
 echo "Downloading Jenkins CLI"
 curl -L -O http://localhost:8080/jnlpJars/jenkins-cli.jar
 
